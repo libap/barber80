@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="/services/img/logo-bg.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== SLIDER ===============-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/c7f009ebf8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1c2c2462bf.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inspiration&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/services/css/services.css" />
+    <link rel="stylesheet" href="/services/css/responsive.css">
+
+    <!--=============== SCSS ===============-->
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+  
+
+    <!-- -----------------------------ANIMATION----------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- --------------------------------------START--------------->
+
+    <title>Barber - Men's Hair Salon & Hairdresser</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <div class="nav__container h-nav-resp ">
+        <div class="left">
+          <img src="/services/img/logo-bg.png" alt="" />
+        </div>
+        <div class="center v-class-resp">
+          <ul>
+            <li class="active"><a href="/home/home.html">HOME</a></li>
+            <li><a href="#pricing">PRICING</a></li>
+            <li><a href="/services.html">SERVICES</a></li>
+          </ul>
+        </div>
+        <div
+          class="right v-class-resp"
+          onmouseenter="whitephone()"
+          onmouseleave="orangephone()"
+        >
+          <button>
+            <i
+              class="fa-solid fa-phone-volume"
+              id="phone"
+              style="color: #ff8442; font-size: 16px; padding-right: 8px"
+            ></i>
+            +123456789
+          </button>
+        </div>
+        <div class="burger">
+          <i class="ri-menu-2-line" style="color: #fff; font-size: 35px;" ></i>
+        </div>
+      </div>
+    </header>
+      <!--==================== MAIN ====================-->
+    <main>
+      <div class="main__header">
+        <h2>OUR SERVICES</h2>
+      </div>
+      <div class="main__deals">
+        <div class="deals__heading">
+          <h2>PREMIUM PACKAGES & DEALS</h2>
+        </div>
+        <div class="deals__info">
+          <div class="deal ">
+            <div class="list">
+              <div class="tab">
+                <input type="radio" name="acc" id="acc15" />
+                <label for="acc15">
+                  <h4>VIP STYLE AND PAMPER</h4>
+                  <span></span>
+                  <h3>$160</h3>
+                  <h2>$120</h2>
+                </label>
+                <div class="content">
+                  <p>
+                    ✔ Bespoke haircut <br />
+                    ✔ Premium beard grooming<br />
+                    ✔ Soothing steam facial <br />✔ Rejuvenating neck and
+                    shoulder massage
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="deal ">
+            <div class="list">
+              <div class="tab">
+                <input type="radio" name="acc" id="acc2" />
+                <label for="acc2">
+                  <h4>GENTALMEN'S REVIVAL</h4>
+                  <span></span>
+                  <h3>$140</h3>
+                  <h2>$105</h2>
+                </label>
+                <div class="content">
+                  <p>
+                    ✔ Classic haircut <br />✔ Detailed beard sculpting <br />✔
+                    Invigorating mini facial <br />✔ Tension-relieving hand
+                    massage
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="deal ">
+            <div class="list">
+              <div class="tab">
+                <input type="radio" name="acc" id="acc3" />
+                <label for="acc3">
+                  <h4>EXECUTIVE GROOMING RETREAT</h4>
+                  <span></span>
+                  <h3>$240</h3>
+                  <h2>$190</h2>
+                </label>
+                <div class="content">
+                  <p>
+                    ✔ Executive haircut <br />✔ Deep-cleansing facial <br />✔
+                    Meticulous beard grooming<br />
+                    ✔ Soothing full-back massage
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__buttons">
+        <span>
+          <a href="#package1"> HAIRCUT & STYLING </a>
+        </span>
+        <span>
+          <a href="#package2"> BEARD STYLING </a>
+        </span>
+        <span>
+          <a href="#package3"> GROOMING AND SKINCARE </a>
+        </span>
+        <span>
+          <a href="#package4"> COLOR & TREATMENT </a>
+        </span>
+      </div>
+      <div class="main__packages">
+        <div class="main__package " id="package1">
+          <div class="package__image animate__animated animate__fadeInLeft">
+            <img src="/services/img/image1.webp" alt="" />
+          </div>
+          <div class="package__details animate__animated animate__fadeInRight">
+            <div class="package__heading">
+              <h2>HAIRCUT AND HAIRSTYLING</h2>
+            </div>
+            <p>
+              <strong>Haircut Services:</strong> Discover a world of
+              personalized style at TrimHub. Our experienced barbers specialize
+              in classic cuts that stand the test of time, as well as modern
+              styles that keep you on-trend. From beard trims to kids' cuts, we
+              cater to all ages. Our barbers provide custom consultations to
+              ensure your haircut enhances your unique features.
+            </p>
+            <p>
+              <strong>Hairstyling Services:</strong> Elevate your look with the
+              expertise of TrimHub's hairstylists. Whether you're aiming for a
+              formal updo, casual waves, sleek elegance, textured volume, or
+              vibrant highlights, we bring your vision to life. Our stylists
+              create hairstyles that match your occasion and personality, making
+              you feel confident and stylish.
+            </p>
+            <span></span>
+            <div class="package__options">
+              <div class="options__left">
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc16" />
+                    <label for="acc16">
+                      <h4>CLASSIC HAIRCUT</h4>
+                      <span></span>
+                      <h2>$20</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        A timeless choice for a clean and refined look that
+                        suits any occasion.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc17" />
+                    <label for="acc17">
+                      <h4>FADE CUT</h4>
+                      <span></span>
+                      <h2>$30</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Experience the seamless transition from a shorter back
+                        and sides to longer on top, creating a modern and sharp
+                        appearance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc18" />
+                    <label for="acc18">
+                      <h4>UNDERCUT</h4>
+                      <span></span>
+                      <h2>$28</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Achieve a bold and edgy style with a short back and
+                        sides, offering versatility for varied top-length
+                        styles.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc19" />
+                    <label for="acc19">
+                      <h4>BUZZ CUT</h4>
+                      <span></span>
+                      <h2>$35</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Effortlessly embrace a low-maintenance, uniform length
+                        all over for a neat and clean appearance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc20" />
+                    <label for="acc20">
+                      <h4>UNDER CUT</h4>
+                      <span></span>
+                      <h2>$28</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Achieve a bold and edgy style with a short back and
+                        sides, offering versatility for varied top-length
+                        styles.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="options__right">
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc21" />
+                    <label for="acc21">
+                      <h4>SLEEK FORMAL STYLE</h4>
+                      <span></span>
+                      <h2>$30</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Elevate your elegance with a polished look that's
+                        perfect for formal events.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc22" />
+                    <label for="acc22">
+                      <h4>CASUAL BEACH WAVES</h4>
+                      <span></span>
+                      <h2>$28</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Effortlessly tousled waves for a laid-back and
+                        beach-inspired appearance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc23" />
+                    <label for="acc23">
+                      <h4>TEXTURED MESSY LOOK</h4>
+                      <span></span>
+                      <h2>$32</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Embrace an effortlessly stylish appearance with a
+                        textured and slightly disheveled style.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc24" />
+                    <label for="acc24">
+                      <h4>PAMPADOR STYLING</h4>
+                      <span></span>
+                      <h2>$27</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        A classic yet contemporary look that combines volume on
+                        top with sleek sides.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc25" />
+                    <label for="acc25">
+                      <h4>SIDE-SWEPT STYLE</h4>
+                      <span></span>
+                      <h2>$27</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Achieve a timeless charm with hair swept elegantly to
+                        the side for a sophisticated look.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__packages white">
+        <div class="main__package" id="package2">
+          <div class="package__image animate__animated animate__fadeInLeft">
+            <img src="/services/img/image2.webp" alt="" />
+          </div>
+          <div class="package__details animate__animated animate__fadeInRight">
+            <div class="package__heading">
+              <h2>BEARDSTYLING</h2>
+            </div>
+            <p>
+              Our beard grooming services are designed to cater to your distinct
+              style and preferences. From a basic trim that keeps your beard
+              looking neat and tidy, to an intricate sculpting session that
+              transforms your facial hair into a personalized masterpiece, our
+              experienced barbers bring precision and artistry to every service.
+            </p>
+            <p>
+              Achieve a sharp and defined look with our beard line-up, or
+              indulge in the nourishing care of our conditioning treatment that
+              leaves your beard soft, healthy, and truly remarkable. Whatever
+              your beard goals may be, our range of grooming options ensures you
+              step out with a beard that reflects your personality and exudes
+              confidence.
+            </p>
+            <span></span>
+            <div class="package__options">
+              <div class="options__left">
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc26" />
+                    <label for="acc26">
+                      <h4>BASIC BEARD TRIM</h4>
+                      <span></span>
+                      <h2>$15</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Maintain your beard's shape and neatness with a precise
+                        trim that keeps your facial hair looking its best.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc27" />
+                    <label for="acc27">
+                      <h4>FULL BEARD SHAPING</h4>
+                      <span></span>
+                      <h2>$20</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Transform your beard into a work of art with a
+                        comprehensive shaping service that enhances your facial
+                        features.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc28" />
+                    <label for="acc28">
+                      <h4>BEARD SCULPTING</h4>
+                      <span></span>
+                      <h2>$25</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Experience the pinnacle of beard artistry as our barbers
+                        meticulously sculpt and craft your beard into a
+                        personalized masterpiece.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="options__right">
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc29" />
+                    <label for="acc29">
+                      <h4>BEARD LINE-UP</h4>
+                      <span></span>
+                      <h2>$10</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Achieve sharp and defined edges with a beard line-up
+                        that adds precision to your overall appearance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc30" />
+                    <label for="acc30">
+                      <h4>CONDITIONING TREATMENT</h4>
+                      <span></span>
+                      <h2>$12</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Give your beard the care it deserves with a nourishing
+                        treatment that leaves it soft, healthy, and lustrous.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__packages">
+        <div class="main__package" id="package3">
+          <div class="package__image animate__animated animate__fadeInLeft">
+            <img src="/services/img/image3.webp" alt="" />
+          </div>
+          <div class="package__details animate__animated animate__fadeInRight">
+            <div class="package__heading">
+              <h2>GROOMING AND SKINCARE</h2>
+            </div>
+            <p>
+              At TrimHub, we believe that grooming isn't just about hair – it's
+              a comprehensive experience that encompasses skincare as well. Our
+              range of skincare and grooming services is designed to enhance
+              your overall look and leave you feeling rejuvenated. Our skincare
+              and grooming services are designed to cater to every facet of your
+              personal care routine.
+            </p>
+            <p>
+              From the invigorating facial cleansing that leaves your skin
+              refreshed and rejuvenated, to our exfoliation treatments that
+              unveil a smoother, healthier complexion, we're dedicated to
+              helping you look and feel your best. Our personalized moisturizing
+              and hydration services ensure your skin stays supple and radiant.
+              For those seeking to combat signs of aging, our specialized
+              anti-aging treatments are tailored to target fine lines and
+              promote a more youthful appearance.
+            </p>
+            <span></span>
+            <div class="package__options">
+              <div class="options__left">
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc31" />
+                    <label for="acc31">
+                      <h4>FACIAL CLEANSING</h4>
+                      <span></span>
+                      <h2>$30</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Treat your skin to a revitalizing facial cleansing that
+                        removes impurities and leaves your complexion refreshed
+                        and rejuvenated.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc32" />
+                    <label for="acc32">
+                      <h4>ANTI-AGING TREATMENTS</h4>
+                      <span></span>
+                      <h2>$25</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Combat the signs of aging with specialized treatments
+                        that target fine lines and promote a more youthful
+                        appearance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc33" />
+                    <label for="acc33">
+                      <h4>HOT TOWEL SHAVE</h4>
+                      <span></span>
+                      <h2>$30</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Indulge in the timeless luxury of a hot towel shave that
+                        ensures a smooth and comfortable grooming experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="options__right">
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc34" />
+                    <label for="acc34">
+                      <h4>MOISTURIZING TREATMENT</h4>
+                      <span></span>
+                      <h2>$25</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Keep your skin hydrated and supple with our personalized
+                        moisturizing treatments that cater to your skin's unique
+                        needs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc35" />
+                    <label for="acc35">
+                      <h4>EXFOLIATION</h4>
+                      <span></span>
+                      <h2>$40</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Uncover smoother, healthier skin with our exfoliation
+                        treatments that gently remove dead skin cells and
+                        promote a radiant glow.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__packages white">
+        <div class="main__package" id="package4">
+          <div class="package__image animate__animated animate__fadeInLeft">
+            <img src="/services/img/image1.webp" alt="" />
+          </div>
+          <div class="package__details animate__animated animate__fadeInRight">
+            <div class="package__heading">
+              <h2>COLOR & TREATMENT</h2>
+            </div>
+            <p>
+              Our skilled colorists are adept at transforming your hair into a
+              canvas of hues that reflect your personality and style. Whether
+              you're looking to cover up gray strands, add subtle highlights, or
+              embark on a bold color adventure, we offer a range of options
+              tailored to your preferences.
+            </p>
+            <p>
+              Our consultation process ensures that your desired shade
+              complements your skin tone and overall look. With quality products
+              and expert application techniques, we create natural and striking
+              hair color results that elevate your appearance. Step into a realm
+              of creativity and self-expression – explore our hair color
+              services and unlock a spectrum of captivating looks that reflect
+              your unique identity.
+            </p>
+            <span></span>
+            <div class="package__options">
+              <div class="options__left">
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc36" />
+                    <label for="acc36">
+                      <h4>SINGLE COLOR</h4>
+                      <span></span>
+                      <h2>$45</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Experience a seamless transformation with a single color
+                        application that covers gray strands or adds depth to
+                        your natural shade.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc37" />
+                    <label for="acc37">
+                      <h4>HIGHLIGHTS AND LOWLIGHTS</h4>
+                      <span></span>
+                      <h2>$60</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Enhance your hair's dimension with strategically placed
+                        highlights or lowlights that create contrast and
+                        movement.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc38" />
+                    <label for="acc38">
+                      <h4>BALAYAGE OR OMBRE</h4>
+                      <span></span>
+                      <h2>$70</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Embark on a journey of artistry with balayage or ombre
+                        techniques that blend colors for a natural and stunning
+                        gradient effect.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc39" />
+                    <label for="acc39">
+                      <h4>DEEP HYDRATION THERAPY</h4>
+                      <span></span>
+                      <h2>$40</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Indulge in the ultimate hair rejuvenation with our Deep
+                        Hydration Therapy. Nourishing masks and revitalizing
+                        serums are expertly applied to restore moisture, leaving
+                        your hair silky, shiny, and remarkably manageable.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="options__right">
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc40" />
+                    <label for="acc40">
+                      <h4>COLOR CORRECTION</h4>
+                      <span></span>
+                      <h2>$80</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Revamp your look with our color correction service,
+                        designed to address unwanted tones or previous color
+                        mishaps.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc41" />
+                    <label for="acc41">
+                      <h4>CREATIVE HAIR COLOR</h4>
+                      <span></span>
+                      <h2>$90</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Revamp your look with our color correction service,
+                        designed to address unwanted tones or previous color
+                        mishaps.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc42" />
+                    <label for="acc42">
+                      <h4>SCALP DETOX AND REVIVE</h4>
+                      <span></span>
+                      <h2>$30</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Unleash your creativity with our creative hair color
+                        service, where vivid and bold shades become a vibrant
+                        expression of your style.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="tab">
+                    <input type="radio" name="acc" id="acc43" />
+                    <label for="acc43">
+                      <h4>SPLIT END REPAIR RITUAL</h4>
+                      <span></span>
+                      <h2>$25</h2>
+                    </label>
+                    <div class="content">
+                      <p>
+                        Banish split ends with our Split End Repair Ritual. Our
+                        professional treatment uses specialized products to
+                        target and mend damaged ends, helping you maintain the
+                        length and strength of your locks.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+   <!--==================== CONTACT ====================-->
+    <div class="contact" id="Contactus">
+      <div class="contact__bg"></div>
+      <div class="contact__top">
+        <div class="contact__heading">
+          <h6>GET IN TOUCH</h6>
+          <h2>CONTACT US</h2>
+        </div>
+        <div class="contact__para">
+          <p>
+            Feel free to reach out to us with your inquiries through either
+            phone or email. We are here to provide you with the information you
+            need.
+          </p>
+        </div>
+      </div>
+      <div class="contact__center">
+        <div class="contact__div">
+          <div class="contact__form">
+            <h2>SEND US A MESSAGE</h2>
+            <div class="top__form">
+              <div class="col-sm">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Name"
+                  name="name"
+                  value=""
+                  required
+                />
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                  name="email"
+                  value=""
+                  required
+                />
+              </div>
+
+              <textarea
+                class="form-control"
+                rows="10"
+                placeholder="Write your message (Please provide your Phone number and Desired Time for appointment confirmation)"
+                name="message"
+                required
+              ></textarea>
+
+              <button
+                class="btn send-button"
+                id="submit"
+                type="submit"
+                value="SEND"
+              >
+                <div class="alt-send-button">
+                  <i class="fa fa-paper-plane"></i
+                  ><span class="send-text">SEND</span>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="contact__details">
+            <div class="details__head">
+              <h2>CONTACT INFORMATION</h2>
+            </div>
+            <div class="details__main">
+              <div class="detail__main">
+                <div class="detail__main__icon">
+                  <i
+                    class="ri-map-pin-line"
+                    style="color: #ff8442; font-size: 25px"
+                  ></i>
+                </div>
+                <div class="detail__main__name">
+                  <p>Address: 123 Main Street, Cityville, Stateburg, 98765</p>
+                </div>
+              </div>
+              <div class="detail__main">
+                <div class="detail__main__icon">
+                  <i
+                    class="ri-phone-line"
+                    style="color: #ff8442; font-size: 25px"
+                  ></i>
+                </div>
+                <div class="detail__main__name">
+                  <p>Hotline: (555) 123-4567</p>
+                </div>
+              </div>
+              <div class="detail__main">
+                <div class="detail__main__icon">
+                  <i
+                    class="ri-mail-line"
+                    style="color: #ff8442; font-size: 25px"
+                  ></i>
+                </div>
+                <div class="detail__main__name">
+                  <p>Email: info@barbershop.com</p>
+                </div>
+              </div>
+              <div class="detail__main">
+                <div class="detail__main__icon">
+                  <i
+                    class="ri-time-line"
+                    style="color: #ff8442; font-size: 25px"
+                  ></i>
+                </div>
+                <div class="detail__main__name">
+                  <p>
+                    Opening Hours:
+                    <br />
+                    Mon to Fri: 9.00am - 8.30pm
+                    <br />
+                    Sat: 10.00am - 6.30pm
+                    <br />
+                    Sun: Closed
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="details__footer">
+              <div class="detail__footer__head">
+                <h2>FOLLOW US ON</h2>
+              </div>
+              <div class="detail__footer__icons">
+                <div class="footer-social-menu">
+                  <ul>
+                      <li><a href="https://youtube.com" target="blank"><i class="fab fa-youtube"></i></i></a></li>
+                      <li><a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="https://www.linkedin.com/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                      <li><a href="https://www.twitter.com"><i class="fab fa-twitter" target="blank"></i></a></li>
+                      <li><a href="https://www.tiktok.com"><i class="fab fa-tiktok" target="blank"></i></a></li>
+                  </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+       <!--==================== FOOTER ====================-->
+    <Footer class="footer">
+      <div class="footer__top">
+        <div class="footer__left">
+          <div class="footer__img">
+            <img src="/services/img/logo-bg.png" alt="">
+            <h2>TrimHub</h2>
+          </div>
+          
+          <p>Elevating Grooming. Inspiring Style. Unleash Your Confidence at TrimHub where we craft exceptional looks that reflect your individuality a passion for style and an eye for detail.</p>
+        </div>
+        <div class="footer__right">
+          <div class="footer__links">
+            <span>QUICK LINKS</span>
+            <ul>
+              <li><a href="/home/home.html">Home</a></li>
+              <li><a href="/services/services.html">Services</a></li>
+              <li><a href="#Gallery">Gallery</a></li>
+              <li><a href="#Aboutus">About Us</a></li>
+              <li><a href="#Contactus">Contact Us</a></li>
+        
+            </ul>
+          </div>
+          <div class="footer__links">
+            <span>SERVICES</span>
+            <ul>
+              <li><a href="#package1">Haircut & Hairstyling</a></li>
+              <li><a href="#package2">Beard Styling</a></li>
+              <li><a href="#package3">Grooming & Skin Care</a></a></li>
+              <li><a href="#package4">Color & Treatment</a></li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <span>LEGAL</span>
+            <ul>
+              <li><a href="#Privacy Policy">Privacy Policy</a></li>
+              <li><a href="#Terms & Conditions">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="footer__bottom">
+        <div class="footer__head">
+          <h2>FOLLOW US ON</h2>
+        </div>
+        <div class="footer__icons">
+          <div class="footer-social-menu">
+            <ul>
+                <li><a href="https://youtube.com" target="blank"><i class="fab fa-youtube"></i></i></a></li>
+                <li><a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.twitter.com"><i class="fab fa-twitter" target="blank"></i></a></li>
+                <li><a href="https://www.tiktok.com"><i class="fab fa-tiktok" target="blank"></i></a></li>
+            </ul>
+        </div>
+        </div>
+      </div>
+    </Footer>
+  </body>
+  <script src="/services/js/services.js"></script>
+  <script src="/services/js/resp.js"></script>
+</html>

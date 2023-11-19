@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="/home/img/logo-bg.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== SLIDER ===============-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--=============== ICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
+
+    <!-- FONTS -->
+    <script
+      src="https://kit.fontawesome.com/c7f009ebf8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1c2c2462bf.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inspiration&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/home/css/home.css" />
+    <link rel="stylesheet" href="/home/css/responsive.css">
+
+    <!--=============== SCSS ===============-->
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <script src="less.js" type="text/javascript"></script>
+
+    <!-- -----------------------------ANIMATION----------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+
+    <title>Barber - Men's Hair Salon & Hairdresser</title>
+  </head>
+  <body>
+<!--==================== HEADER ====================-->
+    <header class="header">
+      <div class="nav__container h-nav-resp ">
+        <div class="left">
+          <img src="/home/img/logo-bg.png" alt="" />
+        </div>
+        <div class="center v-class-resp">
+          <ul>
+            <li class="active"><a href="/home.html">HOME</a></li>
+            <li><a href="#pricing">PRICING</a></li>
+            <li><a href="/services/services.html">SERVICES</a></li>
+          </ul>
+        </div>
+        <div
+          class="right v-class-resp"
+          onmouseenter="whitephone()"
+          onmouseleave="orangephone()"
+        >
+          <button>
+            <i
+              class="fa-solid fa-phone-volume"
+              id="phone"
+              style="color: #ff8442; font-size: 16px; padding-right: 8px"
+            ></i>
+            +123456789
+          </button>
+        </div>
+        <div class="burger">
+          <i class="ri-menu-2-line" style="color: #fff; font-size: 35px;" ></i>
+        </div>
+      </div>
+    </header>
+
+<!--==================== HERO ====================-->
+    <main class="hero">
+      <div class="darken"></div>
+
+      <div class="hero__container">
+        <div class="text__container animate__animated">
+          <p>BEST MEN’S PARLOUR IN YOUR AREA</p>
+          <h1>
+            OWN YOUR
+            <span class="text__color" style="color: #ff8442">STYLE</span>
+            <br />EMBRACE YOUR
+            <span class="text__color" style="color: #ff8442">POWER</span>
+          </h1>
+          <div class="appointment">
+            <a href="#contact"><span>BOOK AN APPOINTMENT</span></a
+            ><i
+              class="ri-arrow-right-line"
+              style="font-size: 30px; font-weight: 100"
+            ></i>
+          </div>
+        </div>
+        <div class="hero__scrollbar">
+          <div class="hero__scroll"><p>SCROLL</p></div>
+          <div class="geeks"></div>
+        </div>
+      </div>
+    </main>
+<!--==================== DETAILS ====================-->
+    <div class="details__bar">
+      <div class="detail__one animate__animated">
+        <i class="ri-map-pin-line" style="color: #ff8442; font-size: 35px"></i>
+        <span>LOCATION</span>
+        <p>
+          123 Main Street, Cityville, Stateburg,<br />
+          98765
+        </p>
+      </div>
+      <div class="detail__two animate__animated">
+        <i
+          class="fa-solid fa-phone-volume"
+          style="color: #ff8442; font-size: 30px"
+        ></i>
+        <span>CONTACT</span>
+        <p>(555) 123-4567</p>
+        <p>info@barbershop.com</p>
+      </div>
+      <div class="detail__three animate__animated">
+        <i class="ri-time-line" style="color: #ff8442; font-size: 35px"></i>
+        <span>OPENING HOURS</span>
+        <p>Mon to Fri: 9.00am - 8.30pm</p>
+        <p>Sat: 10.00am - 6.30pm</p>
+        <p>Sun: Closed</p>
+      </div>
+    </div>
+<!--==================== SPECIALITY ====================-->
+    <div class="speciality" id="speciality">
+      <div class="speciality__top animate__animated  ">
+        <div class="speciality__heading">
+          <h6>OUR MAIN SERVICES</h6>
+          <h2>OUR SPECIALITIES</h2>
+        </div>
+        <div class="speciality__para">
+          <p>
+            Ultimate grooming for the modern man. Look and feel your best with
+            our skilled stylists and premium products.
+          </p>
+        </div>
+      </div>
+      <div class="speciality__center animate__animated ">
+        <div class="speciality__image">
+          <img
+            src="/home/img/ourSpeciality1.webp"
+            alt=""
+            sizes="calc(min(378px, 100vw) - 40px)"
+          />
+          <div class="info">
+            <h4>HAIRCUTS & HAIRSTYLING</h4>
+            <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+        </div>
+
+        <div class="speciality__image">
+          <img
+            src="/home/img/ourSpeciality2.webp"
+            alt=""
+            sizes="calc(min(378px, 100vw) - 40px)"
+          />
+          <div class="info">
+            <h4>BEARD STYLING</h4>
+            <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+        </div>
+      </div>
+      <div class="speciality__bottom resp-btn animate__animated ">
+        <div class="speciality__services resp-btn-div">
+          <a href="#services">BROWSE ALL SERVICES </a
+          ><i
+            class="ri-arrow-right-line"
+            style="font-size: 30px; font-weight: 100"
+          ></i>
+        </div>
+      </div>
+    </div>
+<!--==================== PRICING ====================-->
+    <div class="pricing" id="pricing">
+      <div class="pricing__top animate__animated ">
+        <div class="pricing__heading">
+          <h6>WHAT WE OFFER</h6>
+          <h2>OUR PRICES</h2>
+        </div>
+        <div class="pricing__para">
+          <p>
+            Experience luxury grooming with our diverse services designed just
+            for you. Discover clear pricing aligned with the value you get.
+          </p>
+        </div>
+      </div>
+      <div class="pricelistcontainer animate__animated ">
+        <div class="pricelist1">
+          <div class="list">
+            <div class="tab">
+              <input type="radio" name="acc" id="acc1">
+              <label for="acc1">
+                  <h4>TAILORED HAIRCUT</h4>
+                  <span></span>
+                  <h2>$25</h2>
+              </label>
+              <div class="content">
+                  <p>Timeless and tailored, our classic haircut will have you looking polished and refined.</p>
+              </div>
+          </div>
+            <div class="tab">
+              <input type="radio" name="acc" id="acc2">
+              <label for="acc2">
+                  <h4>MODERN FADE</h4>
+                  <span></span>
+                  <h2>$30</h2>
+              </label>
+              <div class="content">
+                  <p>Embrace contemporary style with our expertly executed modern fade, a favorite among trendsetters.</p>
+              </div>
+          </div>
+            <div class="tab">
+              <input type="radio" name="acc" id="acc3">
+              <label for="acc3">
+                  <h4>BEARD TRIM AND SCULPT</h4>
+                  <span></span>
+                  <h2>$20</h2>
+              </label>
+              <div class="content">
+                  <p>Keep your beard in perfect shape with our precise trim and sculpting service.</p>
+              </div>
+          </div>
+            <div class="tab">
+              <input type="radio" name="acc" id="acc4">
+              <label for="acc4">
+                  <h4>HOT TOWEL RAZOR SHAVE</h4>
+                  <span></span>
+                  <h2>$35</h2>
+              </label>
+              <div class="content">
+                  <p>Experience the ultimate luxury with a hot towel shave that leaves your skin smooth and rejuvenated.</p>
+              </div>
+          </div>
+            <div class="tab">
+              <input type="radio" name="acc" id="acc5">
+              <label for="acc5">
+                  <h4>EXECUTIVE GROOMING</h4>
+                  <span></span>
+                  <h2>$45</h2>
+              </label>
+              <div class="content">
+                  <p>Indulge in our deluxe grooming experience, featuring a tailored haircut, beard trim, and meticulous detailing.</p>
+              </div>
+          </div>
+          <div class="tab">
+              <input type="radio" name="acc" id="acc6">
+              <label for="acc6">
+                  <h4>HAIR TREATMENT</h4>
+                  <span></span>
+                  <h2>$25</h2>
+              </label>
+              <div class="content">
+                  <p>Revitalize your hair with a nourishing treatment that restores shine and vitality to your locks.</p>
+              </div>
+          </div>
+          <div class="tab">
+              <input type="radio" name="acc" id="acc7">
+              <label for="acc7">
+                  <h4>COLOR AND HIGHLIGHTS</h4>
+                  <span></span>
+                  <h2>$50</h2>
+              </label>
+              <div class="content">
+                  <p> Transform your hair with a splash of color or subtle highlights, tailored to your skin tone and personality.</p>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="pricelist2">
+          <div class="list">
+            <div class="tab">
+              <input type="radio" name="acc" id="acc8">
+              <label for="acc8">
+                  <h4>REFRESHING FACIAL</h4>
+                  <span></span>
+                  <h2>$40</h2>
+              </label>
+              <div class="content">
+                  <p>Revitalize your hair with a nourishing treatment that restores shine and vitality to your locks.</p>
+              </div>
+          </div>
+          <div class="tab">
+            <input type="radio" name="acc" id="acc9">
+            <label for="acc9">
+                <h4>HAIR COLOR ENHANCEMENT</h4>
+                <span></span>
+                <h2>$35</h2>
+            </label>
+            <div class="content">
+                <p>Transform your look with our expert hair color enhancement services for a fresh and vibrant appearance.</p>
+            </div>
+        </div>
+        <div class="tab">
+          <input type="radio" name="acc" id="acc10">
+          <label for="acc10">
+              <h4>SHAMPOO AND BLOWOUT</h4>
+              <span></span>
+              <h2>$35</h2>
+          </label>
+          <div class="content">
+              <p>Treat yourself to a relaxing shampoo followed by a professional blowout for a sleek finish.</p>
+          </div>
+      </div>
+      <div class="tab">
+        <input type="radio" name="acc" id="acc11">
+        <label for="acc11">
+            <h4>KID'S CUT(UNDER 12)</h4>
+            <span></span>
+            <h2>$20</h2>
+        </label>
+        <div class="content">
+            <p>Make haircuts fun and easy for your little ones with our gentle and kid-friendly service.</p>
+        </div>
+    </div>
+    <div class="tab">
+      <input type="radio" name="acc" id="acc12">
+      <label for="acc12">
+          <h4>SENIOR SPECIAL</h4>
+          <span></span>
+          <h2>$15</h2>
+      </label>
+      <div class="content">
+          <p>Our discounted package for seniors ensures top-notch grooming at an affordable price.</p>
+      </div>
+  </div>
+
+  <div class="tab">
+    <input type="radio" name="acc" id="acc13">
+    <label for="acc13">
+      <h4>HEAD SHAVE</h4>
+      <span></span>
+      <h2>$20</h2>
+    </label>
+    <div class="content">
+      <p>Achieve a sleek and clean look with a professional head shave that's expertly performed by our barbers.</p>
+    </div>
+  </div>
+  <div class="tab">
+    <input type="radio" name="acc" id="acc14">
+    <label for="acc14">
+        <h4>CUSTOM CONSULTATION</h4>
+        <span></span>
+        <h2>FREE</h2>
+    </label>
+    <div class="content">
+        <p>Our experienced barbers offer personalized consultations to help you choose the perfect haircut that suits your face shape, hair type, and preferences.</p>
+    </div>
+</div>
+            </div>
+            </div>
+      </div>
+      <div class="pricing__bottom resp-btn animate__animated ">
+        <div class="pricing__services resp-btn-div">
+          <a href="#pricing">VIEW DETAILED SERVICES</a
+          ><i
+            class="ri-arrow-right-line"
+            style="font-size: 30px; font-weight: 100"
+          ></i>
+        </div>
+      </div>
+    </div>
+<!--==================== GALLERY ====================-->
+    <div class="gallery" id="gallery">
+      <div class="gallery__top animate__animated  ">
+        <div class="gallery__heading">
+          <h6>OUR PHOTO GALLERY</h6>
+          <h2>OUR SHOP IN IMAGES</h2>
+        </div>
+        <div class="gallery__button">
+          <div class="gallery__services">
+            <a href="#gallery">VIEW GALLERY</a
+            ><i
+              class="ri-arrow-right-line"
+              style="font-size: 30px; font-weight: 100"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="gallery__center animate__animated ">
+        <div class="swiper sample-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage1.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage3.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage2.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage1.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage2.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage3.webp" />
+            </div>
+           
+          </div>
+        </div>
+        <div class="swiper slider-two">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage1Line2.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage2Line2.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage3Line2.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage1Line2.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage2Line2.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/home/img/diapoImage3Line2.webp" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--==================== DIFFERENCES ====================-->
+    <div class="differences">
+      <div class="diff__top animate__animated ">
+        <h6>WHY CHOOSE OUR SHOP?</h6>
+        <h2>OUR DIFFERENCES</h2>
+        <p>
+          Experience our unique approach to grooming – where personalized
+          service meets skilled artistry. Discover a haven where style and
+          <br />individuality intertwine
+        </p>
+      </div>
+      <div class="diff__accordion animate__animated ">
+        <div class="accordion-menu">
+          <ul>
+            <li>
+              <input type="checkbox" checked />
+              <i class="arrow"></i>
+              <h2>
+                <i
+                  class="ri-team-fill"
+                  style="color: #ff8442; padding: 0 14px"
+                ></i
+                >EXPERIENCED BARBERS
+              </h2>
+              <p>
+                Our team comprises seasoned barbers who bring a rich tapestry of
+                expertise, honed over years of dedicated practice. Their passion
+                for the craft shines through in every precise cut, every
+                skillful trim, and every artful shave. you're assured of a
+                grooming journey guided by mastery and delivered with a touch of
+                passion.
+
+                <img src="/home/img/see package background.webp" alt="" />
+              </p>
+            </li>
+            <li>
+              <input type="checkbox" checked />
+              <i class="arrow"></i>
+              <h2>
+                <i
+                  class="ri-home-smile-fill"
+                  style="color: #ff8442; padding: 0 14px"
+                ></i
+                >RELAXING ENVIRONMENT
+              </h2>
+              <p>
+                Our barber shop is more than just a place for grooming; it's a
+                haven of aesthetic harmony. Thoughtfully curated decor, warm
+                lighting, and comfortable seating create an ambiance that's both
+                inviting and serene. The colors, textures, and arrangement come
+                together to create an atmosphere where every detail contributes
+                to your sense of ease.
+                <img src="/home/img/see package background 2.webp" alt="" />
+              </p>
+            </li>
+            <li>
+              <input type="checkbox" checked />
+              <i class="arrow"></i>
+              <h2>
+                <i
+                  class="ri-hand-sanitizer-line"
+                  style="color: #ff8442; padding: 0 14px"
+                ></i
+                >PREMIUM GROOMING PRODUCTS
+              </h2>
+              <p>
+                Our shelves are stocked with a thoughtfully curated collection
+                of premium grooming products that represent the pinnacle of
+                quality. From renowned brands to artisanal creations, each
+                product has been chosen to deliver results that match our
+                commitment to excellence.
+                <img src="/home/img/see package background 3.webp" alt="" />
+              </p>
+            </li>
+            <li>
+              <input type="checkbox" checked />
+              <i class="arrow"></i>
+              <h2>
+                <i
+                  class="ri-scissors-cut-fill"
+                  style="color: #ff8442; padding: 0 14px"
+                ></i
+                >ATTENTION TO DETAILS
+              </h2>
+              <p>
+                Every haircut, every shave, every grooming session is a canvas
+                where the smallest details are perfected. From the precise
+                alignment of a fade to the subtle nuances of a beard trim, our
+                dedication to refining every element ensures that your look is
+                just exceptional. Because it's in the details that true
+                sophistication resides.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="diff__bottom resp btn animate__animated ">
+        <span
+          ><i
+            class="ri-star-smile-line"
+            style="color: #ff8442; padding: 0 10px"
+          ></i>
+          <p>Personalized Styling</p></span
+        >
+        <span
+          ><i
+            class="ri-star-smile-line"
+            style="color: #ff8442; padding: 0 10px"
+          ></i>
+          <p>Client-Centric Approach</p></span
+        >
+        <span
+          ><i
+            class="ri-star-smile-line"
+            style="color: #ff8442; padding: 0 10px"
+          ></i>
+          <p>Luxurious Shaves</p></span
+        >
+      </div>
+    </div>
+<!--==================== ABOUTUS ====================-->
+    <div class="aboutus" id="Aboutus">
+      <div class="story animate__animated ">
+        <img src="/home/img/aboutUS.webp" alt="" />
+        <div class="story__body">
+          <div class="story__heading">
+            <div class="story__left">
+              <h6>OUR STORY</h6>
+              <h2>ABOUT US</h2>
+            </div>
+            <div class="story__right"><span>EST'D 2013</span></div>
+          </div>
+          <div class="story__quotes">
+            <div class="story__quote">
+              <p>
+                Welcome to TrimHub, where grooming is an art and style is a
+                statement. With a legacy built on tradition and an eye for
+                innovation, we blend classic techniques with modern trends to
+                craft the perfect look for you.
+              </p>
+            </div>
+            <div class="story__quote">
+              <p>
+                Our team of expert barbers is more than skilled professionals –
+                they're artists who meticulously sculpt each cut and shave with
+                precision. we offer an experience that's as welcoming as it is
+                stylish.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="story__bottom resp-btn">
+          <p>-Jackson Martinez</p>
+          <span>-FOUNDER, DRAPPERCRAFT BARBERS</span>
+        </div>
+      </div>
+    </div>
+<!--==================== OURTEAM ====================-->
+    <div class="ourteam">
+      <div class="ourteam__top animate__animated ">
+        <div class="ourteam__heading">
+          <h6>OUR TEAM</h6>
+          <h2>MEET OUR EXPERT BARBERS</h2>
+        </div>
+        <div class="ourteam__para">
+          <p>
+            Our team of expert barbers brings together passion, skill, and
+            dedication to elevate your grooming experience.
+          </p>
+        </div>
+      </div>
+      <div class="ourteam__images animate__animated ">
+        <div class="ourteam__image">
+          <img src="/home/img/barber1.webp" alt="" />
+          <div class="ourteam__details">
+            <div class="social-buttons">
+              <!-- facebook  Button -->
+              <a
+                href="http://www.facebook.com"
+                target="blank"
+                class="social-margin"
+              >
+                <div class="social-icon facebook">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+              </a>
+
+              <!-- whatsapp Button -->
+              <a
+                href="http://whatsapp.com/"
+                target="blank"
+                class="social-margin"
+              >
+                <div class="social-icon whatsapp">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </div>
+              </a>
+              <!-- instagram Button -->
+              <a
+                href="https://instagram.com/"
+                target="blank"
+                class="social-margin"
+              >
+                <div class="social-icon instagram">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress__text">
+              <h3>LIAM TURNER</h3>
+              <p>Beard Grooming Expert</p>
+            </div>
+            <div class="progress-value"></div>
+          </div>
+        </div>
+
+        <div class="ourteam__image">
+          <img src="/home/img/barber2.webp" alt="" />
+          <div class="ourteam__details">
+            <div class="social-buttons">
+              <!-- facebook  Button -->
+              <a
+                href="http://www.facebook.com"
+                target="blank"
+                class="social-margin"
+              >
+                <div class="social-icon facebook">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+              </a>
+
+              <!-- whatsapp Button -->
+              <a
+                href="http://whatsapp.com/"
+                target="blank"
+                class="social-margin"
+              >
+                <div class="social-icon whatsapp">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </div>
+              </a>
+              <!-- instagram Button -->
+              <a
+                href="https://instagram.com/"
+                target="blank"
+                class="social-margin"
+              >
+                <div class="social-icon instagram">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress__text">
+              <h3>JACKSON MARTINEZ</h3>
+              <p>Hair Specialist</p>
+            </div>
+            <div class="progress-value"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--==================== FEEDBACK ====================-->
+    <div class="feedback">
+      <div class="feedback__top animate__animated ">
+        <div class="feedback__heading">
+          <h6>WHAT CLIENTS SAY</h6>
+          <h2>CLIENTS' FEEDBACKS</h2>
+        </div>
+        <div class="feedback__para">
+          <p>
+            See what our clients have to say about their extraordinary
+            experiences at our barber shop. Real stories & real satisfaction.
+          </p>
+        </div>
+      </div>
+      <div class="feedback__slider animate__animated ">
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <div class="feedback__left">
+              <img src="/home/img/client1.webp" class="client" />
+              <div class="feedback__text">
+                <img src="/home/img/rating-5.png" />
+                <h3>I'VE NEVER FELT MORE CONFIDENT...</h3>
+                <p>
+                  I've never felt more confident than after getting my haircut
+                  at TrimHub Barbershop. The attention to detail and the
+                  friendly atmosphere make every visit an enjoyable experience.
+                </p>
+                <h5>MICHAEL T.</h5>
+                <span>Client, TrimHub Barbershop</span>
+              </div>
+            </div>
+            <div class="feedback__right">
+              <img src="/home/img/client2.webp" class="client" />
+              <div class="feedback__text">
+                <img src="/home/img/rating-5.png" />
+                <h3>EXCEEDED ALL MY EXPECTATIONS..</h3>
+                <p>
+                  I was skeptical about trying a new barber shop, but TrimHub
+                  Barbershop exceeded all my expectations. The barber took the
+                  time to understand my preferences.
+                </p>
+                <h5>DAVID R.</h5>
+                <span>Client, TrimHub Barbershop</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides">
+            <div class="feedback__left">
+              <img src="/home/img/client3.jpg" class="client" />
+              <div class="feedback__text">
+                <img src="/home/img/rating-5.png" />
+                <h3>A BEARD THAT FELT LIKE A WORK OF ART.</h3>
+                <p>
+                  The barbers' attention to detail and dedication to delivering
+                  top-notch cuts is unmatched. I recently tried their grooming
+                  service, and I left with a beard that felt like a work of
+                  art..
+                </p>
+                <h4>TIMOTHY R.</h4>
+                <span>Client, TrimHub Barbershop</span>
+              </div>
+            </div>
+            <div class="feedback__right">
+              <img src="/home/img/client4.webp" alt="" class="client" />
+              <div class="feedback__text">
+                <img src="/home/img/rating-5.png" />
+                <h3>HOT TOWEL SHAVE WAS ABSOLUTE LUXURY...</h3>
+                <p>
+                  The hot towel shave was an absolute luxury, and the barber's
+                  attention to detail was impressive. The shop's ambiance is
+                  inviting, and the staff creates a cozy environment.
+                </p>
+                <h4>ALEX M.</h4>
+                <span>Client, TrimHub Barbershop</span>
+              </div>
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+    </div>
+<!--==================== OFFERS ====================-->
+    <div class="offers">
+      <div class="offer-swiper animate__animated " id="offer-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" id="offer-slide">
+            <div class="left__shadow"></div>
+            <img src="/home/img/see package background.webp" />
+            <div class="offers__text">
+              <h1 style="color: var(--light-text-color)">
+                EXECUTIVE GROOMING SAVE ($45)
+              </h1>
+              <p>
+                Save up to $45 with a precision haircut, luxurious hot towel
+                shave, facial treatment, and a relaxing head massage.
+              </p>
+              <div class="offers__button">
+                <div class="offers__services">
+                  <a href="#offers">SEE PACKAGES</a
+                  ><i
+                    class="ri-arrow-right-line"
+                    style="font-size: 30px; font-weight: 100"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" id="offer-slide">
+            <div class="left__shadow"></div>
+            <img src="/home/img/see package background 2.webp" />
+            <div class="offers__text">
+              <h1 style="color: var(--text-color)">
+                GENTLEMAN'S REVIVAL (Save $25)
+              </h1>
+              <p>
+                Save $25 compared to individual services with a classic haircut,
+                detailed beard sculpting, mini facial, and a tension-relieving
+                hand massage..
+              </p>
+              <div class="offers__button">
+                <div class="offers__services">
+                  <a href="#offers">SEE PACKAGES</a
+                  ><i
+                    class="ri-arrow-right-line"
+                    style="font-size: 30px; font-weight: 100"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" id="offer-slide">
+            <div class="left__shadow"></div>
+            <img src="/home/img/see package background 3.webp" />
+            <div class="offers__text">
+              <h1>VIP STYLE AND PAMPER (Save $30)</h1>
+              <p>
+                Save up to $30 with a classic haircut, soothing facial, and
+                expert beard grooming..
+              </p>
+              <div class="offers__button">
+                <div class="offers__services">
+                  <a href="#offers">SEE PACKAGES</a
+                  ><i
+                    class="ri-arrow-right-line"
+                    style="font-size: 30px; font-weight: 100"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+<!--==================== CONTACT ====================-->
+    <div class="contact" id="Contactus">
+      <div class="contact__bg"></div>
+      <div class="contact__top animate__animated ">
+        <div class="contact__heading">
+          <h6>GET IN TOUCH</h6>
+          <h2>CONTACT US</h2>
+        </div>
+        <div class="contact__para">
+          <p>
+            Feel free to reach out to us with your inquiries through either
+            phone or email. We are here to provide you with the information you
+            need.
+          </p>
+        </div>
+      </div>
+      <div class="contact__center animate__animated ">
+        <div class="contact__div">
+          <div class="contact__form">
+            <h2>SEND US A MESSAGE</h2>
+            <div class="top__form">
+              <div class="col-sm">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Name"
+                  name="name"
+                  value=""
+                  required
+                />
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                  name="email"
+                  value=""
+                  required
+                />
+              </div>
+
+              <textarea
+                class="form-control"
+                rows="10"
+                placeholder="Write your message (Please provide your Phone number and Desired Time for appointment confirmation)"
+                name="message"
+                required
+              ></textarea>
+
+              <button
+                class="btn send-button"
+                id="submit"
+                type="submit"
+                value="SEND"
+              >
+                <div class="alt-send-button">
+                  <i class="fa fa-paper-plane"></i
+                  ><span class="send-text">SEND</span>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="contact__details">
+            <div class="details__head">
+              <h2>CONTACT INFORMATION</h2>
+            </div>
+            <div class="details__main">
+              <div class="detail__main">
+                <div class="detail__main__icon">
+                  <i
+                    class="ri-map-pin-line"
+                    style="color: #ff8442; font-size: 25px"
+                  ></i>
+                </div>
+                <div class="detail__main__name">
+                  <p>Address: 123 Main Street, Cityville, Stateburg, 98765</p>
+                </div>
+              </div>
+              <div class="detail__main">
+                <div class="detail__main__icon">
+                  <i
+                    class="ri-phone-line"
+                    style="color: #ff8442; font-size: 25px"
+                  ></i>
+                </div>
+                <div class="detail__main__name">
+                  <p>Hotline: (555) 123-4567</p>
+                </div>
+              </div>
+              <div class="detail__main">
+                <div class="detail__main__icon">
+                  <i
+                    class="ri-mail-line"
+                    style="color: #ff8442; font-size: 25px"
+                  ></i>
+                </div>
+                <div class="detail__main__name">
+                  <p>Email: info@barbershop.com</p>
+                </div>
+              </div>
+              <div class="detail__main">
+                <div class="detail__main__icon">
+                  <i
+                    class="ri-time-line"
+                    style="color: #ff8442; font-size: 25px"
+                  ></i>
+                </div>
+                <div class="detail__main__name">
+                  <p>
+                    Opening Hours:
+                    <br />
+                    Mon to Fri: 9.00am - 8.30pm
+                    <br />
+                    Sat: 10.00am - 6.30pm
+                    <br />
+                    Sun: Closed
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="details__footer">
+              <div class="detail__footer__head">
+                <h2>FOLLOW US ON</h2>
+              </div>
+              <div class="detail__footer__icons">
+                <div class="footer-social-menu">
+                  <ul>
+                      <li><a href="https://youtube.com" target="blank"><i class="fab fa-youtube"></i></i></a></li>
+                      <li><a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="https://www.linkedin.com/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                      <li><a href="https://www.twitter.com"><i class="fab fa-twitter" target="blank"></i></a></li>
+                      <li><a href="https://www.tiktok.com"><i class="fab fa-tiktok" target="blank"></i></a></li>
+                  </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+<!--==================== FOOTER ====================-->
+      <Footer class="footer">
+        <div class="footer__top">
+          <div class="footer__left">
+            <div class="footer__img">
+              <img src="/home/img/logo-bg.png" alt="">
+              <h2>TrimHub</h2>
+            </div>
+            
+            <p>Elevating Grooming. Inspiring Style. Unleash Your Confidence at TrimHub where we craft exceptional looks that reflect your individuality a passion for style and an eye for detail.</p>
+          </div>
+          <div class="footer__right">
+            <div class="footer__links">
+              <span>QUICK LINKS</span>
+              <ul>
+                <li><a href="/home/home.html">Home</a></li>
+                <li><a href="/services/services.html">Services</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Aboutus">About Us</a></li>
+                <li><a href="#Contactus">Contact Us</a></li>
+          
+              </ul>
+            </div>
+            <div class="footer__links">
+              <span>SERVICES</span>
+              <ul>
+                <li><a href="/services/services.html">Haircut & Hairstyling</a></li>
+                <li><a href="/services/services.html">Beard Styling</a></li>
+                <li><a href="/services/services.html">Grooming & Skin Care</a></a></li>
+                <li><a href="/services/services.html">Color & Treatment</a></li>
+              </ul>
+            </div>
+            <div class="footer__links">
+              <span>LEGAL</span>
+              <ul>
+                <li><a href="#Privacy Policy">Privacy Policy</a></li>
+                <li><a href="#Terms & Conditions">Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+   
+        <div class="footer__bottom resp-btn">
+          <div class="footer__head">
+            <h2>FOLLOW US ON</h2>
+          </div>
+          <div class="footer__icons">
+            <div class="footer-social-menu">
+              <ul>
+                  <li><a href="https://youtube.com" target="blank"><i class="fab fa-youtube"></i></i></a></li>
+                  <li><a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.linkedin.com/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="https://www.twitter.com"><i class="fab fa-twitter" target="blank"></i></a></li>
+                  <li><a href="https://www.tiktok.com"><i class="fab fa-tiktok" target="blank"></i></a></li>
+              </ul>
+          </div>
+          </div>
+        </div>
+      </Footer>
+    <script src="/home/js/main.js"></script>
+    <script src="/home/js/resp.js"></script>
+  </body>
+</html>
